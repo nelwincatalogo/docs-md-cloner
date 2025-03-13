@@ -93,6 +93,10 @@ We welcome contributions! To contribute:
 
 This project is open-source and available under the **MIT License**.
 
+## More Information
+
+For more details, visit the blog post: [Bash Shell Script to Clone Next.js 15, Drizzle ORM, or Any Documentation Locally as Markdown Files](https://www.alagarbaa.com/blog/p/bash-shell-script-to-clone-next-js-15-drizzle-orm-or-any-documentation-locally-as-markdown-files)
+
 ## Enjoy!
 
 Start using **docs-md-cloner** and easily fetch documentation from your favorite projects!
