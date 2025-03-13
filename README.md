@@ -73,7 +73,7 @@ source clone_docs.sh
 clone_docs \
     "vercel" \
     "next.js" \
-    "main" \
+    "canary" \
     "docs" \
     "_docs/next-js-15"
 ```
@@ -82,7 +82,7 @@ clone_docs \
 #!/bin/bash
 source clone_docs.sh
 
-# Call the function with the shadcn-ui parameters
+# Call the function with parameters
 clone_docs \
     "drizzle-team" \
     "drizzle-orm-docs" \
@@ -96,7 +96,7 @@ clone_docs \
 #!/bin/bash
 source clone_docs.sh
 
-# Call the function with the shadcn-ui parameters
+# Call the function with parameters
 clone_docs \
     "shadcn-ui" \
     "ui" \
@@ -109,7 +109,7 @@ clone_docs \
 #!/bin/bash
 source clone_docs.sh
 
-# Call the function with the shadcn-ui parameters
+# Call the function with parameters
 clone_docs \
     "tailwindlabs" \
     "tailwindcss.com" \
@@ -123,7 +123,7 @@ clone_docs \
 #!/bin/bash
 source clone_docs.sh
 
-# Call the function with the shadcn-ui parameters
+# Call the function with parameters
 clone_docs \
     "better-auth" \
     "better-auth" \
