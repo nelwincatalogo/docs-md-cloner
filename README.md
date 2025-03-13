@@ -25,7 +25,7 @@ Ensure you have the following installed on your system:
 To get started, clone this repository to your local system:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/docs-md-cloner.git
+git clone https://github.com/ala-garbaa-pro/docs-md-cloner.git
 cd docs-md-cloner
 ```
 
@@ -76,6 +76,61 @@ clone_docs \
     "main" \
     "docs" \
     "_docs/next-js-15"
+```
+
+```bash
+#!/bin/bash
+source clone_docs.sh
+
+# Call the function with the shadcn-ui parameters
+clone_docs \
+    "drizzle-team" \
+    "drizzle-orm-docs" \
+    "main" \
+    "src/content/docs" \
+    "_docs/drizzle-orm-0.40"
+
+```
+
+```bash
+#!/bin/bash
+source clone_docs.sh
+
+# Call the function with the shadcn-ui parameters
+clone_docs \
+    "shadcn-ui" \
+    "ui" \
+    "main" \
+    "apps/www/content/docs" \
+    "_docs/shadcn-ui-docs"
+```
+
+```bash
+#!/bin/bash
+source clone_docs.sh
+
+# Call the function with the shadcn-ui parameters
+clone_docs \
+    "tailwindlabs" \
+    "tailwindcss.com" \
+    "main" \
+    "src/docs" \
+    "_docs/tailwindcss-docs"
+
+```
+
+```bash
+#!/bin/bash
+source clone_docs.sh
+
+# Call the function with the shadcn-ui parameters
+clone_docs \
+    "better-auth" \
+    "better-auth" \
+    "main" \
+    "docs/content/docs" \
+    "_docs/better-auth"
+
 ```
 
 This will clone the `docs` folder from the Next.js repository and store it inside `_docs/next-js-15`.
