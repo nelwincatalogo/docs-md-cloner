@@ -6,3 +6,5 @@ bash clone-next-js-docs.sh
 bash clone-tailwindcss-docs.sh
 bash clone-shadcn-docs.sh
 bash clone-hookstate-docs.sh
+bash clone-gitmoji-docs.sh
+
